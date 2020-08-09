@@ -7,13 +7,13 @@
 {{ $show_interests := $page.Params.design.show_interests | default true }}
 
 <div class="row justify-content-center people-widget">
-  {{ with $page.Title }}
+<!--  {{ with $page.Title }}
   <div class="col-md-12 section-heading">
     <h1>{{ . | markdownify | emojify }}</h1>
     {{ if $page.Params.subtitle }}<p>{{ $page.Params.subtitle | markdownify | emojify }}</p>{{ end }}
   </div>
   {{ end }}
-
+-->
   {{ with $page.Content }}
   <div class="col-md-12">
     {{ . }}
@@ -23,19 +23,20 @@
   {{ range $page.Params.content.user_groups }}
   {{ $query := where (where site.Pages "Section" "authors") ".Params.user_groups" "intersect" (slice .) }}
 
-  {{if $query}}
+<!--  {{if $query}}
   <div class="col-md-12">
     <h2 class="mb-4">{{ . | markdownify }}</h2>
   </div>
   {{end}}
-
+-->
   {{ range $query }}
   {{ $avatar := (.Resources.ByType "image").GetMatch "*avatar*" }}
   {{/* Get link to user's profile page. */}}
-  {{ $link := "" }}
-  {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
+  {{ $link := .Params.site_url }}
+<!--  {{ with site.GetPage (printf "/authors/%s" (path.Base (path.Split .Path).Dir)) }}
     {{ $link = .RelPermalink }}
   {{ end }}
+-->
   <div class="col-12 col-sm-auto people-person">
     {{ $src := "" }}
     {{ if site.Params.avatar.gravatar }}
@@ -46,11 +47,11 @@
     {{ end }}
     {{ if $src }}
       {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
-      {{with $link}}<a href="{{.}}">{{end}}<img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="Avatar">{{if $link}}</a>{{end}}
+      <a href="{{ .Params.site_url }}"><img class="avatar {{if eq $avatar_shape "square"}}avatar-square{{else}}avatar-circle{{end}}" src="{{ $src }}" alt="Avatar"></a>
     {{ end }}
 
     <div class="portrait-title">
-      <h2>{{with $link}}<a href="{{.}}">{{end}}{{ .Title }}{{if $link}}</a>{{end}}</h2>
+      <h2><a href="{{ .Params.site_url }}">{{ .Title }}</a></h2>
       {{ with .Params.role }}<h3>{{ . | markdownify | emojify }}</h3>{{ end }}
       {{ if $show_social }}{{ partial "social_links" . }}{{ end }}
       {{ if and $show_interests .Params.interests }}<p class="people-interests">{{ delimit .Params.interests ", " | markdownify | emojify }}</p>{{ end }}

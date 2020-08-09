@@ -49,7 +49,7 @@ superuser: true
 title: Camilla Cattania
 user_groups:
 - Faculty
-url: "/camcat/"
+site_url: "/camcat/"
 ---
 
 William Frank is an Assistant Professor in the [Department of Earth, Atmospheric and Planetary Sciences](https://eapsweb.mit.edu) at the [Massachusetts Institute of Technology](https://www.mit.edu).

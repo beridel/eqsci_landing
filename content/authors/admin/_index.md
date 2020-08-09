@@ -1,7 +1,7 @@
 ---
 authors:
 - camcat, wbfrank
-bio: Welcome to Earthquake Science @MIT! We are two research groups: Fault Mechanics, led by Assistant Professor Camilla Cattania, and Tectonophysics, led by Assistant Professor William Frank.
+bio: "Welcome to Earthquake Science @MIT! We are two research groups: Fault Mechanics, led by Assistant Professor Camilla Cattania, and Tectonophysics, led by Assistant Professor William Frank."
 #education:
 #  courses:
 #  - course: PhD in Geophysics
@@ -46,9 +46,9 @@ bio: Welcome to Earthquake Science @MIT! We are two research groups: Fault Mecha
 #  link: files/wbfrank_cv.pdf
 
 superuser: true
-title: Earthquake Science @MIT
+title: ""
 user_groups:
-- Faculty
+- admin
 ---
 
 Welcome to Earthquake Science @MIT! We are two research groups: Fault Mechanics, led by Assistant Professor Camilla Cattania, and Tectonophysics, led by Assistant Professor William Frank.
