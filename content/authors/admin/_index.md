@@ -1,7 +1,7 @@
 ---
 authors:
-- camcat
-bio: Camilla's research interests
+- camcat, wbfrank
+bio: Welcome to Earthquake Science @MIT! We are two research groups: Fault Mechanics, led by Assistant Professor Camilla Cattania, and Tectonophysics, led by Assistant Professor William Frank.
 #education:
 #  courses:
 #  - course: PhD in Geophysics
@@ -46,11 +46,10 @@ bio: Camilla's research interests
 #  link: files/wbfrank_cv.pdf
 
 superuser: true
-title: Camilla Cattania
+title: Earthquake Science @MIT
 user_groups:
 - Faculty
-url: "/camcat/"
 ---
 
-William Frank is an Assistant Professor in the [Department of Earth, Atmospheric and Planetary Sciences](https://eapsweb.mit.edu) at the [Massachusetts Institute of Technology](https://www.mit.edu).
-He leads the Tectonophysics research group that focuses on crustal deformation within the solid Earth, whether it's the result of earthquakes or the slow shear of slow slip.
+Welcome to Earthquake Science @MIT! We are two research groups: Fault Mechanics, led by Assistant Professor Camilla Cattania, and Tectonophysics, led by Assistant Professor William Frank.
+
