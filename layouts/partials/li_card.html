@@ -35,6 +35,8 @@
       <img src="{{ $image.RelPermalink }}" class="article-banner" alt="{{ $item.Title }}">
   </a>
   {{end}}
+
+  {{ $item.RelPermalink }}
   
   {{ if eq $item.Type "talk" }}
   <div class="article-metadata">
