@@ -20,23 +20,23 @@
 {{ end }}
 -->
 
+{{ $item_group_rellink := printf "/%s%s" $item.Params.group $item.RelPermalink }}
+
 <div class="card-simple">
 
   <h3 class="article-title mb-1 mt-3">
-    <a href="/{{ $item.group$item.RelPermalink }}">{{ $item.Title }}</a>
+    <a href="{{ $item_group_rellink }}">{{ $item.Title }}</a>
   </h3>
 
   {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
   {{ $anchor := $item.Params.image.focal_point | default "Smart" }}
   {{ with $resource }}
   {{ $image := .Fill (printf "918x517 q90 %s" $anchor) }}
-  <a href="/{{ $item.group$item.RelPermalink }}">
+  <a href="{{ $item_group_rellink }}">
       <img src="{{ $image.RelPermalink }}" class="article-banner" alt="{{ $item.Title }}">
   </a>
   {{end}}
 
-  {{ $item.group$item.RelPermalink }}
-  
   {{ if eq $item.Type "talk" }}
   <div class="article-metadata">
     {{ if $item.Params.authors }}
