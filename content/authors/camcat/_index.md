@@ -1,56 +1,74 @@
 ---
+# Display name
+title: Camilla Cattania
+
+# Username (this should match the folder name)
 authors:
 - camcat
-bio: Camilla's research interests
-#education:
-#  courses:
-#  - course: PhD in Geophysics
-#    institution: Institut de Physique du Globe de Paris
-#    year: 2014
-#  - course: MSc in Geophysics
-#    institution: Institut de Physique du Globe de Paris
-#    year: 2011
-#  - course: BSc in Earth Systems Science
-#    institution: University of Michigan (Ann Arbor)
-#    year: 2009
-#email: "wfrank@mit.edu"
-#interests:
-#- Earthquakes
-#- Tectonics
-#- Volcanoes
-#organizations:
-#- name: Massachusetts Institute of Technology
-#  url: "https://eapsweb.mit.edu"
-#role: Assistant Professor
-#social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: 'mailto:wfrank@mit.edu'
-#- icon: google-scholar
-#  icon_pack: ai
-#  link: https://scholar.google.co.uk/citations?user=MK2Cs1UAAAAJ
-#- icon: orcid
-#  icon_pack: fab
-#  link: https://orcid.org/0000-0001-7892-3081
-#- icon: researchgate
-#  icon_pack: fab
-#  link: https://www.researchgate.net/profile/William_Frank3
+
+# Is this the primary user of the site?
+superuser: true
+
+# Role/position
+role: Assistant Professor
+
+# Organizations/Affiliations
+organizations:
+- name: Massachusetts Institute of Technology
+  url: ""
+
+# Short bio (displayed in user profile at end of posts)
+bio: ""
+
+
+interests: 
+- Fault mechanics
+- Earthquake physics
+
+
+education:
+  courses:
+  - course: PhD in Geophysics
+    institution: GFZ German Research Center for Geosciences
+    year: 2015
+  - course: MSci in Experimental and Theoretical Physics
+    institution: Cambridge University
+    year: 2011
+
+# Social/Academic Networking
+# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+#   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
+
+social:
+- icon: envelope
+  icon_pack: fas
+  link: mailto:camcat@mit.edu
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.de/citations?user=wCfHm5IAAAAJ&hl=en
 #- icon: github
 #  icon_pack: fab
-#  link: https://github.com/beridel
-#- icon: twitter
-#  icon_pack: fab
-#  link: https://twitter.com/w_b_frank
-#- icon: cv
-#  icon_pack: ai
-#  link: files/wbfrank_cv.pdf
+#  link: //github.com/camcat
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+- icon: cv
+  icon_pack: ai
+  link: pdf/cv.pdf
 
-superuser: true
-title: Camilla Cattania
+# Enter email to display Gravatar (if Gravatar enabled in Config)
+email: ""
+
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Faculty
 site_url: "/camcat/"
 ---
 
-William Frank is an Assistant Professor in the [Department of Earth, Atmospheric and Planetary Sciences](https://eapsweb.mit.edu) at the [Massachusetts Institute of Technology](https://www.mit.edu).
-He leads the Tectonophysics research group that focuses on crustal deformation within the solid Earth, whether it's the result of earthquakes or the slow shear of slow slip.
+Welcome! I’m an assistant professor in the [Department of Earth, Atmospheric, and Planetary Sciences](https://eapsweb.mit.edu) at MIT, where I am starting a research group on fault mechanics and earthquake physics.
+
+I am currently looking for enthusiastic graduates students and postdocts. [Get in touch](mailto:camcat@mit.edu) if you're interested!
+
+My group will address a range of questions at different scales, from the mechanics of small repeating events to earthquake interaction on regional and global scale. We will tackle these problems with a combination of numerical, analytical and statistical tools. In addition to furthering our understanding of earthquake physics, I am interested in ways to integrate the state-of-the-art knowledge into practical tools, and in particular models to use in operational earthquake forecasting.
+
