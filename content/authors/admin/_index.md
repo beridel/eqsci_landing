@@ -51,5 +51,9 @@ user_groups:
 - admin
 ---
 
-Welcome to Earthquake Science @MIT! We are two research groups: Fault Mechanics, led by Assistant Professor Camilla Cattania, and Tectonophysics, led by Assistant Professor William Frank.
+Welcome to Earthquake Science @MIT!
+
+We are two research groups:<br/> 
+Fault Mechanics, led by Assistant Professor Camilla Cattania,<br/>
+and Tectonophysics, led by Assistant Professor William Frank.
 

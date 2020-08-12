@@ -22,6 +22,10 @@ subtitle = ""
   # Show user's interests? (true/false)
   show_interests = true
 
+[design.spacing]
+  # Customize the section spacing. Order is top, right, bottom, left.
+  padding = ["0", "0", "60px", "0"]
+
 [design.background]
   # Apply a background color, gradient, or image.
   #   Uncomment (by removing `#`) an option to apply it.
@@ -29,8 +33,7 @@ subtitle = ""
   #   Any HTML color name or Hex value is valid.
   
   # Background color.
-  # color = "navy"
-  
+  # color = "navy" 
   # Background gradient.
   # gradient_start = "DeepSkyBlue"
   # gradient_end = "SkyBlue"
@@ -49,3 +52,8 @@ subtitle = ""
  # CSS class.
  css_class = ""
 +++
+
+---
+<br/>
+<br/>
+
