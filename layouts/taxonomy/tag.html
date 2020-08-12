@@ -19,7 +19,6 @@
     <div>
       <h2><a href="{{$group_link}}" {{ $target | safeHTMLAttr }}>{{ .Title }}</a></h2>
       <div class="article-style">
-        {{ $group_link }}
         {{ if .Params.summary }}
           {{ .Params.summary | plainify | emojify }}
         {{ else if .Params.abstract }}
