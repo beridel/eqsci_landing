@@ -8,7 +8,8 @@ grep tags content/publication/*/* -h | sed 's/\[//g' | sed 's/\]//g' | sed 's/"/
 # Get William's tags:
 grep -A100000 tags: content/publication/*/index.md -h | grep "\- " | sed 's/- //g' >> tmp
 
-sort -f tmp | uniq > taglist & rm tmp
+sort -f tmp | uniq > taglist
+rm tmp
 
 # See which files use each tag:
 while read line; do
