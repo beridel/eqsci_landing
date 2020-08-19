@@ -1,6 +1,7 @@
 ---
 # Display name
 title: Camilla Cattania
+weight: 1
 
 # Username (this should match the folder name)
 authors:

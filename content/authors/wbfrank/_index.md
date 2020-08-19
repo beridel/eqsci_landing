@@ -1,4 +1,5 @@
 ---
+weight: 2
 authors:
 - wbfrank
 bio: My research focuses on how the Earth's crust deforms over a broad range spatiotemporal scales.
