@@ -15,9 +15,7 @@ education:
     year: 2009
 email: "wfrank@mit.edu"
 interests:
-- Earthquakes
-- Tectonics
-- Volcanoes
+- Tectophysics
 organizations:
 - name: Massachusetts Institute of Technology
   url: "https://eapsweb.mit.edu"
