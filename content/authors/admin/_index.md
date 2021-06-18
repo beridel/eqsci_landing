@@ -55,7 +55,7 @@ Welcome to EQSci@MIT!
 We are part of the [Department of Earth, Atmospheric and Planetary Sciences](https://eapsweb.mit.edu) at [MIT](https://www.mit.edu).
 
 We are two research groups focused on earthquake science, covering everything from observational seismology and geodesy to numerical and analytical modeling:<br/> 
-[Fault Mechanics](/camcat/), led by Assistant Professor Camilla Cattania,<br/>
-and [Tectonophysics](/tecto/), led by Assistant Professor William Frank.<br/>
+[Fault Mechanics](/camcat/), led by Assistant Professor Camilla Cattania, and<br/>
+[Tectonophysics](/tecto/), led by Assistant Professor William Frank.<br/>
 
 <em>Prospective students and postdoctoral researchers</em>: if interested in joining us, please reach out to us with a description of your research interests and your CV.
