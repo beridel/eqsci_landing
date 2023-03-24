@@ -31,8 +31,16 @@
   {{ $query = $query | intersect $archive_page.Pages }}
 {{ end }}
 {{ if $st.Params.content.filters.author }}
-  {{ $archive_page = site.GetPage (printf "authors/%s" (urlize $st.Params.content.filters.author)) }}
-  {{ $query = $query | intersect $archive_page.Pages }}
+  {{ if eq (len $st.Params.content.filters.author) 1 }}
+    {{ $archive_page = site.GetPage (printf "authors/%s" (urlize $st.Params.content.filters.author)) }}
+    {{ $query = $query | intersect $archive_page.Pages }}
+  {{ else }}
+    {{ $first_archive_page := site.GetPage "Section" $items_type }}
+    {{ $second_archive_page := site.GetPage "Section" $items_type }}
+    {{ $first_archive_page = site.GetPage (printf "authors/%s" (urlize (index $st.Params.content.filters.author 1))) }}
+    {{ $second_archive_page = site.GetPage (printf "authors/%s" (urlize (index $st.Params.content.filters.author 2))) }}
+    {{ $query = union ($query | intersect $first_archive_page.Pages) ($query | intersect $second_archive_page.Pages) }}
+  {{ end }}
 {{ end }}
 {{ if $st.Params.content.filters.exclude_featured }}
   {{ $query = where $query "Params.featured" "!=" true }}
