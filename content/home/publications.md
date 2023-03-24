@@ -28,7 +28,7 @@ subtitle = ""
     tag = ""
     category = ""
     publication_type = ""
-    author = "camcat, wbfrank"
+    author = ""
     exclude_featured = false
   
 [design]
