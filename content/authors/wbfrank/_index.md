@@ -1,5 +1,4 @@
 ---
-weight: 2
 authors:
 - wbfrank
 bio: My research focuses on how the Earth's crust deforms over a broad range spatiotemporal scales.
@@ -16,7 +15,9 @@ education:
     year: 2009
 email: "wfrank@mit.edu"
 interests:
-- Tectonophysics
+- Earthquakes
+- Tectonics
+- Volcanoes
 organizations:
 - name: Massachusetts Institute of Technology
   url: "https://eapsweb.mit.edu"
